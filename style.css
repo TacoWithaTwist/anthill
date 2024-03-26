@@ -1,0 +1,50 @@
+* {
+  /* --primary-color: #8f1111;
+  --secondary-color: #c79c63;
+  --accent-color: #090402; */
+}
+body {
+  background-color: var(--primary-color);
+  margin: 0 auto;
+}
+header {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+#introduction {
+  color: var(--secondary-color);
+}
+#logo {
+  display: inline;
+  margin: 0 4% 0 4%;
+}
+h1 {
+  display: inline;
+  margin: 0 4% 0 4%;
+}
+#pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.pictures > img {
+  width: 350px;
+  height: auto;
+  margin-top: 3%;
+  border-radius: 5%;
+}
+.mapsLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atouts > img {
+  width: 75px;
+}
